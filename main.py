@@ -1,7 +1,6 @@
-# Ukázka funkce input()
-jmeno = input("Jak se jmenuješ? ")
-jidlo = input("Jaké je tvé oblíbené jídlo? ")
+vek = int(input("zadejte vek"))
+if vek >= 18:
+    print ("dospely")
+if vek <= 18: 
+    print ("dospivajici")
 
-print()
-print("Ahoj,", jmeno + "!")
-print("Tvé oblíbené jídlo je:", jidlo)
