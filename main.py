@@ -1,6 +1,10 @@
-vek = int(input("zadejte vek"))
-if vek >= 18:
-    print ("dospely")
-if vek <= 18: 
-    print ("dospivajici")
+vek = int(input("Kolik ti je let"))
+obcan = input("Jsi občan ČR")
+
+if vek >= 18 and obcan  == "ano" :
+
+    print ("Můžeš volit")
+
+else :
+    print ("nemůžeš volit")
 
